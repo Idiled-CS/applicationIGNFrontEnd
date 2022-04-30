@@ -32,7 +32,7 @@ With 200 kW from a Voltorb and 62kWh per hour, we basically need to put in a new
 <br/>1. cd applicationIGNFrontEnd/ignweb
 <br/>2. npm install
 <br/>3. cd servers
-<br/>4. node servers
+<br/>4. node .\server.js
 # The step above will run the proxy server, the next few steps will run the actual site
 <br/>1. Make sure you're in the applicationIGNFrontEnd/ignweb path
 <br/>2. npm start
