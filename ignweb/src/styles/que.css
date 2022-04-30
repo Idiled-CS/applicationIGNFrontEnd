@@ -51,6 +51,11 @@
 .queue{
     text-align: center;
 }
+
+.loadMore:hover{
+    cursor: pointer;
+}
+
 .loadMore{
     position:static;
     background-color: red;
