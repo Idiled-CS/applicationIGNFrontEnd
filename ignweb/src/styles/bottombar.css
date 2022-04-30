@@ -1,0 +1,31 @@
+.bottomBar{
+    background-color:#f0f1f5;
+    display: flex;
+    padding-top: none;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 1px solid;
+    padding:10px;
+    box-shadow: 5px 5px #cdcfd4;
+
+}
+.bottomBar .bottomItems{
+    font-size: 1.2vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    border-left: 1px solid;
+    
+}
+
+.bottomBar .bottomItems:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+#bottomItems0{
+    border-left:none;
+}
+

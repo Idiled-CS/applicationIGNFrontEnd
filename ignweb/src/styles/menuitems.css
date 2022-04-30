@@ -1,0 +1,51 @@
+
+a{
+    font-size:1.4vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    color: black;
+    text-decoration: none;
+}
+
+.more{
+    padding-right: 0.25vw;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow{
+    display: flex;
+    height: 1.5vh;
+}
+
+.search{
+    display: flex;
+    height: 4vh;
+    padding-left: 1.5vw;
+}
+
+.biden{
+    display: flex;
+    height: 8.5vh;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+@media only screen and (max-width: 500px){
+    a{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .biden{
+        display: none;
+    }
+    .arrow{
+        display: none;
+    }
+}

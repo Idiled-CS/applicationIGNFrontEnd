@@ -1,0 +1,65 @@
+#vid1{
+    margin-top:10%;
+}
+
+.videoList{
+    display: flex;
+    position: relative;
+    margin-bottom: 5%;
+    
+}
+.videoList .leftSide{
+    width: 80%;
+}
+
+.videoList .rightSide{
+    width:50%;
+    position:left;
+}
+
+.videoList .rightSide .title{
+    position: left;
+    padding-top:1vh;
+    font-size: large;
+    font-family: sans-serif;
+    text-align: left;
+
+}
+
+.videoList:hover{
+    cursor: pointer;
+}
+
+.time{
+    position: absolute;
+    bottom: 0.8vh;
+    right:17vw;
+    background-color:#2b2a28;
+    color: white;
+    opacity: 0.9;
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+}
+.videoList .leftSide img{
+    width: 60%;
+    border-radius: 15px;
+}
+
+.queue{
+    text-align: center;
+}
+.loadMore{
+    position:static;
+    background-color: red;
+    justify-content: center;
+    font-size: 1.5vw;
+    margin-top: 4vh;
+    margin-left: 4vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    border-radius: 7px;
+    color: white;
+}
