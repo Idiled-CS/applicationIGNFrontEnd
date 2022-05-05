@@ -23,7 +23,7 @@ function MainVideo({urls,title,desc,startIndex, setStartIndex}) {
                     height="100%"
                     width="100%"
                     className = 'mainVideo'
-                    url={urlArr[4]}
+                    url={urlArr[urlArr.length-1]}
                 />
                 <div className="controlContainer">
                 </div>
